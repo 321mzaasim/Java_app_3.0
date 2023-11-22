@@ -86,7 +86,7 @@ pipeline{
             steps{
                script{
                    
-                   jfpush()
+                   jfPush()
                }
             }
         }
