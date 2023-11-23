@@ -72,7 +72,7 @@ pipeline{
                }
             }
         }
-         stage('Jfrog Build : jfrog'){
+         stage('Jfrog Docker Start'){
          when { expression {  params.action == 'create' } }
             steps{
                script{
